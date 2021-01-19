@@ -334,18 +334,18 @@ body .scroll-element .scroll-element_outer {
 body .scroll-element .scroll-element_outer,
 body .scroll-element .scroll-element_track,
 body .scroll-element .scroll-bar {
-    border-radius: 10px;
+    border-radius: 0;
 }
 
 body .scroll-element .scroll-element_track {
     background: #fff;
-    left: 3px;
+    left: 4px;
     width: 2px;
 }
 
 body .scroll-element .scroll-bar {
-    width: 8px;
-    background-color: #fff;
+    width: 10px;
+    background-color: #FFE500;
     left: 0;
     position: relative;
 }
@@ -1170,6 +1170,133 @@ span.error {
 .spin-prize.active,
 .spin-btn-wrapper.active {
     display: block;
+}
+
+.phone-filter {
+    max-width: 500rem;
+    margin: 30rem auto 40rem;
+    transform: rotate(-5deg) skewX(-10deg);
+}
+
+.phone-filter.input-field input:not([type="checkbox"]) {
+    transform: none;
+    padding-left: 30rem;
+}
+
+.search {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+    width: 75px;
+    height: 75px;
+    margin: auto;
+    background: #ED1B31 url(../img/search.svg) center no-repeat;
+    background-size: 47px;
+}
+
+.tabs {
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80rem;
+    transform: rotate(-5deg) skewX(-10deg);
+}
+
+.tab {
+    position: relative;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-size: 23rem;
+    line-height: 27rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #62BB46;
+    width: 220rem;
+    height: 85rem;
+    margin: 0 2rem;
+    padding: 10rem;
+    background: #fff;
+    box-shadow: 1.88217rem 1.88217rem 0rem #000;
+    transition: all .2s linear;
+    cursor: pointer;
+}
+
+.tab:not(.active):hover,
+.tab.active {
+    color: #009640;
+    background: #FFE500;
+}
+
+.tab.disabled {
+    pointer-events: none;
+    background: #C2C2C2;
+    color: #000;
+}
+
+.tabs-content {
+    min-height: 450rem;
+}
+
+.tab-item {
+    display: none;
+}
+
+.tab-item.active {
+    display: block;
+}
+
+.table-wrapper {
+    max-width: 1360rem;
+    width: 100%;
+    max-height: 450rem;
+    margin: auto;
+}
+
+.table-wrapper.scroll-content {
+    padding-right: 18px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+table th {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.15;
+    color: #fff;
+    text-align: left;
+    padding: 0 20px 10px 0;
+}
+
+table tbody {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1;
+    color: #fff;
+    text-align: left;
+}
+
+table td {
+    padding: 13px 20px 13px 0;
+    min-width: 190px;
+}
+
+table td:first-child {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 230px;
+}
+
+table td:nth-child(3) {
+   min-width: 140px;
 }
 
 @media (max-width: 1000px) {
