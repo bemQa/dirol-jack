@@ -204,4 +204,21 @@ $(document).ready(function () {
         $(this).addClass('disabled').parent().addClass('disabled');
         $('.spin-prize, .spin-btn-wrapper').addClass('active');
     });
+
+    $('.product-slider').slick({
+        dots: false,
+        arrows: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1000,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
 });
