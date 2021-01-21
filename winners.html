@@ -524,7 +524,8 @@
 			<div class="popup__wrap">
 				<a href="#!" class="close-popup js-close-popup"></a>
                 <div class="popup__inner">
-                    <div class="popup__title">Войти с помощью <br>вконтакте</div>
+                	<div class="popup__title">Авторизация</div>
+                    <div class="popup__title2">Войти с помощью вконтакте</div>
                     <form class="popup-form">
                     	<div class="soc-auth-wrapper">
 							<button>
@@ -532,6 +533,183 @@
 							</button>
 						</div>
                     </form>
+                    <div class="separate"></div>
+                    <div class="popup__error"></div>
+                    <form class="popup-form">
+                    	<div class="input-field">
+                    		<input type="text" name="phone" placeholder="Телефон или e-mail" required>
+                    	</div>
+                    	<div class="input-field mb30">
+                    		<input type="password" name="password" placeholder="Пароль" required>
+                    	</div>
+                    	<div class="btn-wrapper">
+							<button class="btn">Войти</button>
+						</div>
+						<div class="popup-link-wrapper">
+							<a href="#!" class="link popup-link pop-op" data-popup="reg">Регистрация</a>
+							<a href="#!" class="link popup-link pop-op" data-popup="restore-password">Забыл пароль?</a>
+						</div>
+                    </form>
+                </div>
+            </div>
+		</div>
+		<div id="reg" class="popup reg-popup">
+			<div class="popup__wrap">
+				<a href="#!" class="close-popup js-close-popup"></a>
+                <div class="popup__inner">
+                	<div class="popup__title">Регистрация</div>
+                    <div class="popup__title2">Войти с помощью вконтакте</div>
+                    <form class="popup-form">
+                    	<div class="soc-auth-wrapper">
+							<button>
+								<img src="img/vk.svg" alt="">
+							</button>
+						</div>
+                    </form>
+                    <div class="separate"></div>
+                    <div class="popup__error"></div>
+                    <form class="popup-form">
+                    	<div class="input-field">
+                    		<input type="text" name="fio" placeholder="Ф.И.О." required>
+                    	</div>
+                    	<div class="input-field">
+                    		<input type="text" name="phone" class="phone-mask" placeholder="Телефон" required>                    		
+                    	</div>
+                    	<div class="input-field">
+                    		<input type="text" name="email" placeholder="E-mail" required>                    		
+                    	</div>
+                    	<div class="checkbox-wrapper">
+							<div class="input-field checkbox-field">
+	                            <label for="check-rules" class="checkbox">
+	                                <input id="check-rules" name="check-rules" type="checkbox" required>
+	                                <span class="checkmark"></span>
+	                                <span class="checkbox-text">Я согласен с <a href="#!" class="rules-link link" target="_blank">Правилами акции</a></span>
+	                            </label> 
+	                        </div>
+	                        <div class="input-field checkbox-field">
+	                            <label for="check-data" class="checkbox">
+	                                <input id="check-data" name="check-data" type="checkbox" required>
+	                                <span class="checkmark"></span>
+	                                <span class="checkbox-text">Я даю свое согласие на обработку моих персональных данных</span>
+	                            </label> 
+	                        </div>
+						</div>
+						<div class="btn-wrapper">
+							<!-- <button class="btn btn1"><span>Войти</span></button> -->
+							<a href="#!" class="btn btn1 pop-op" data-popup="reg-confirm">Отправить</a>
+						</div>
+						<div class="popup-link-wrapper">
+							<a href="#!" class="link popup-link pop-op" data-popup="auth">Авторизация</a>
+						</div>
+                    </form>
+                </div>
+            </div>
+		</div>
+		<div id="reg1" class="popup reg-popup">
+			<div class="popup__wrap">
+				<a href="#!" class="close-popup js-close-popup"></a>
+                <div class="popup__inner">
+                	<div class="popup__title">Регистрация</div>
+                    <div class="popup__title2">Для завершения регистрации введи номер телефона. <br>На него будет отправлен пароль.</div>
+                    <div class="separate"></div>
+                    <div class="popup__error"></div>
+                    <form class="popup-form">
+                    	<div class="input-field">
+                    		<input type="text" name="phone" class="phone-mask" placeholder="Телефон" required>                    		
+                    	</div>
+                    	<div class="checkbox-wrapper">
+							<div class="input-field checkbox-field">
+	                            <label for="check-rules" class="checkbox">
+	                                <input id="check-rules" name="check-rules" type="checkbox" required>
+	                                <span class="checkmark"></span>
+	                                <span class="checkbox-text">Я согласен с <a href="#!" class="rules-link link" target="_blank">Правилами акции</a></span>
+	                            </label> 
+	                        </div>
+	                        <div class="input-field checkbox-field">
+	                            <label for="check-data" class="checkbox">
+	                                <input id="check-data" name="check-data" type="checkbox" required>
+	                                <span class="checkmark"></span>
+	                                <span class="checkbox-text">Я даю свое согласие на обработку моих персональных данных</span>
+	                            </label> 
+	                        </div>
+						</div>
+						<div class="btn-wrapper">
+							<!-- <button class="btn btn1"><span>Войти</span></button> -->
+							<a href="#!" class="btn btn1 pop-op" data-popup="reg-confirm">Отправить</a>
+						</div>
+						<div class="popup-link-wrapper">
+							<a href="#!" class="link popup-link pop-op" data-popup="auth">Авторизация</a>
+						</div>
+                    </form>
+                </div>
+            </div>
+		</div>
+		<div id="reg2" class="popup reg-popup">
+			<div class="popup__wrap">
+				<a href="#!" class="close-popup js-close-popup"></a>
+                <div class="popup__inner">
+                	<div class="popup__title">Регистрация</div>
+                    <div class="popup__title2">Для завершения регистрации введите ФИО, e-mail и номер телефона, <br>На него будет отправлен пароль.</div>
+                    <div class="separate"></div>
+                    <div class="popup__error"></div>
+                    <form class="popup-form">
+                    	<div class="input-field">
+                    		<input type="text" name="fio" placeholder="Ф.И.О." required>
+                    	</div>
+                    	<div class="input-field">
+                    		<input type="text" name="phone" class="phone-mask" placeholder="Телефон" required>                    		
+                    	</div>
+                    	<div class="input-field">
+                    		<input type="text" name="email" placeholder="E-mail" required>                    		
+                    	</div>
+                    	<div class="checkbox-wrapper">
+							<div class="input-field checkbox-field">
+	                            <label for="check-rules" class="checkbox">
+	                                <input id="check-rules" name="check-rules" type="checkbox" required>
+	                                <span class="checkmark"></span>
+	                                <span class="checkbox-text">Я согласен с <a href="#!" class="rules-link link" target="_blank">Правилами акции</a></span>
+	                            </label> 
+	                        </div>
+	                        <div class="input-field checkbox-field">
+	                            <label for="check-data" class="checkbox">
+	                                <input id="check-data" name="check-data" type="checkbox" required>
+	                                <span class="checkmark"></span>
+	                                <span class="checkbox-text">Я даю свое согласие на обработку моих персональных данных</span>
+	                            </label> 
+	                        </div>
+						</div>
+						<div class="btn-wrapper">
+							<!-- <button class="btn btn1"><span>Войти</span></button> -->
+							<a href="#!" class="btn btn1 pop-op" data-popup="reg-confirm">Отправить</a>
+						</div>
+						<div class="popup-link-wrapper">
+							<a href="#!" class="link popup-link pop-op" data-popup="auth">Авторизация</a>
+						</div>
+                    </form>
+                </div>
+            </div>
+		</div>
+		<div id="reg-confirm" class="popup">
+			<div class="popup__wrap">
+				<a href="#!" class="close-popup js-close-popup"></a>
+                <div class="popup__inner">
+                    <div class="popup__title">Регистрация пройдена</div>
+                    <div class="popup__desc">Пароль для входа на сайт отправлен на номер телефона, указанный при регистрации.</div>
+                    <div class="btn-wrapper">
+						<a href="#!" class="btn pop-op" data-popup="auth">Авторизация</a>
+					</div>
+                </div>
+            </div>
+		</div>
+		<div id="feedback-confirm" class="popup">
+			<div class="popup__wrap">
+				<a href="#!" class="close-popup js-close-popup"></a>
+                <div class="popup__inner">
+                    <div class="popup__title">Спасибо <br>за обращение <br>и обратную связь</div>
+                    <div class="popup__desc">твой запрос обработают <br>в течении трех рабочих дней</div>
+                    <div class="btn-wrapper">
+						<a href="#!" class="btn js-close-popup">Ок</a>
+					</div>
                 </div>
             </div>
 		</div>
