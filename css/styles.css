@@ -1420,6 +1420,134 @@ table td:nth-child(3) {
    min-width: 140rem;
 }
 
+.lk-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 110rem;
+}
+
+.profile {
+    max-width: 600rem;
+    width: 100%;
+    margin-top: 77rem;
+}
+
+.profile-block {
+    margin-bottom: 50rem;
+}
+
+.profile-label {
+    font-style: italic;
+    font-size: 20rem;
+    line-height: 24rem;
+}
+
+.profile-info {
+    font-style: italic;
+    font-size: 26rem;
+    line-height: 47rem;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #FFE500;
+}
+
+.lk-title {
+    font-style: italic;
+    font-size: 40rem;
+    line-height: 48rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 4rem 2rem 0rem #000;
+    transform: rotate(-5deg) skewX(-10deg);
+    margin-bottom: 30rem;
+}
+
+.lk-table {
+    max-width: 750rem;
+    margin-bottom: 50rem;
+}
+
+.lk-table .winners-date {
+    font-size: 20rem;
+    letter-spacing: -0.02em;
+    opacity: 0.6;
+}
+
+.lk-table table td {
+    vertical-align: bottom;
+    min-width: 250rem;
+}
+
+.lk-table table td:nth-child(1) {
+    min-width: 300rem;
+    max-width: none;
+}
+
+.lk-table table td:nth-child(2) {
+    max-width: 210rem;
+}
+
+.lk-table table td:nth-child(3) {
+    max-width: 150rem;
+    min-width: 150rem;
+}
+
+.status-icon {
+    max-width: 49rem;
+}
+
+.status-text {
+    color: #fff;
+}
+
+.code-form {
+    max-width: 500rem;
+    margin: 30rem auto 40rem;
+    transform: rotate(-5deg) skewX(-10deg);
+}
+
+.code-form .input-field input:not([type="checkbox"]) {
+    transform: none;
+    padding-left: 30rem;
+}
+
+.code-btn {
+    position: absolute;
+    top: 0;
+    right: 10rem;
+    bottom: 0;
+    width: 75rem;
+    height: 75rem;
+    margin: auto;
+    background: #ED1B31 url(../img/play-icon.svg) center no-repeat;
+    background-size: 33rem;
+}
+
+.lk-fresh .title {
+    margin-bottom: 20rem;
+}
+
+.lk-stickers {
+    max-width: 450rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.stickers-title {
+    font-style: italic;
+    font-size: 32rem;
+    line-height: 39rem;
+    text-align: center;
+    text-transform: uppercase;
+    transform: rotate(-5deg) skewX(-10deg);
+    margin-bottom: 40rem;
+}
+
+.stickers-title span {
+    color: #FFE500;
+}
+
 @media (max-width: 1000px) {
 	.container {
 		max-width: 375px;
