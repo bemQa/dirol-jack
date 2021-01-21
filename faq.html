@@ -579,6 +579,27 @@
                 </div>
             </div>
 		</div>
+		<div id="restore-password" class="popup">
+			<div class="popup__wrap">
+				<a href="#!" class="close-popup js-close-popup"></a>
+                <div class="popup__inner">
+                	<div class="popup__title">Сброс пароля</div>
+                    <form class="popup-form">
+                    	<div class="popup__desc before-send">Введи свой телефон для восстановления пароля<br>Мы отправим смс с паролем</div>
+                    	<div class="popup__desc after-send" style="display: none;">Пароль был отправлен в смс-сообщении</div>
+                    	<div class="input-field">
+                    		<input type="text" name="phone" class="phone-mask" placeholder="Телефон" required>
+                    	</div>
+                    	<div class="input-field mb30">
+							<span class="clock-text" style="display: none;">Можно отправить повторно через <span class="clock"></span></span>
+                    	</div>
+                    	<div class="btn-wrapper">
+							<button class="btn">Отправить</button>
+						</div>
+                    </form>
+                </div>
+            </div>
+		</div>
 		<div id="fresh-prize" class="popup">
 			<div class="popup__wrap">
 				<a href="#!" class="close-popup js-close-popup"></a>
@@ -619,6 +640,7 @@
 	<script src="libs/scrollbar/jquery.scrollbar.min.js"></script>
 	<script src="libs/jquery.inputmask.min.js"></script>
 	<script src="libs/slick.min.js"></script>
+	<script src="libs/jquery.countdown.min.js"></script>
 	<script src="js/scripts.js"></script>
 </body>
 </html>
