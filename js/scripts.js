@@ -222,6 +222,23 @@ $(document).ready(function () {
         ]
     });
 
+    $('.prizes-slider').slick({
+        dots: false,
+        arrows: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1000,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+
     if($('.dropify').length) {
         $('.dropify').dropify({
             tpl: {
