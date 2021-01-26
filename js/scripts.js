@@ -221,4 +221,12 @@ $(document).ready(function () {
             }
         ]
     });
+
+    if($('.dropify').length) {
+        $('.dropify').dropify({
+            tpl: {
+                clearButton: '<button type="button" class="dropify-clear">X</button>'
+            }
+        });
+    }
 });

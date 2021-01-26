@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="fonts/stylesheet.css">
 	<link rel="stylesheet" href="libs/select2/select2.min.css">
 	<link rel="stylesheet" href="libs/scrollbar/jquery.scrollbar.css">
+	<link rel="stylesheet" href="libs/dropify/dropify.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<!--[if lte IE 9]>
     <script src="http://phpbbex.com/oldies/oldies.js" charset="utf-8"></script>
@@ -497,14 +498,67 @@
                 </div>
             </div>
 		</div>
-		<div id="get-prize-pdd" class="popup">
+		<div id="get-prize-pdd" class="popup reg-popup">
 			<div class="popup__wrap">
 				<a href="#!" class="close-popup js-close-popup"></a>
                 <div class="popup__inner">
-                    <div class="popup__title">Получение приза</div>
-                    <div class="btn-wrapper spin-btn-wrapper">
-						<a href="#!" class="btn js-close-popup">Ок</a>
-					</div>
+                    <div class="popup__title">Ввести данные</div>
+                    <div class="popup__desc">При сумме призов свыше 4000₽, <br>для их получения необходимо загрузить паспортные данные <br>и ИНН для уплаты организатором налога за участника.</div>
+                    <div class="popup__error"></div>
+                    <form class="popup-form">
+                    	<div class="pd-title">ФИО</div>
+                    	<div class="input-field">
+                    		<div class="pseudo-input">Контантин Константинович Константинопольский</div>
+                    	</div>
+                    	<div class="pd-title">Дата рождения</div>
+                    	<div class="input-field">
+                    		<input type="text" name="birthday" placeholder="(дд.мм.гггг)" required>
+                    	</div>
+                    	<div class="pd-title">Паспортные данные</div>
+                    	<div class="input-field-double">
+                    		<div class="input-field">
+	                    		<input type="text" name="p-series" placeholder="Серия" required>
+	                    	</div>
+	                    	<div class="input-field">
+	                    		<input type="text" name="p-number" placeholder="Номер" required>
+	                    	</div>
+                    	</div>
+                    	<div class="input-field">
+                    		<input type="text" name="p-date" placeholder="Дата выдачи (дд.мм.гггг)" required>
+                    	</div>
+						<div class="input-field">
+                    		<input type="text" name="p-issued" placeholder="Кем выдан" required>
+                    	</div>
+                    	<div class="input-field">
+                    		<input type="text" name="p-registration" placeholder="Адрес регистрации" required>
+                    	</div>
+                    	<div class="pd-title">ИНН</div>
+                    	<div class="input-field">
+                    		<input type="text" name="inn" placeholder="12 цифр" required>
+                    	</div>
+                    	<div class="pd-title">Фотографии или сканы</div>
+                    	<div class="upload-wrap">
+			                <div class="upload">
+			                    <input type="file" name="p-photo1" class="dropify" data-dpf="1" />
+			                </div>
+			                <div class="upload-text">Паспорт, разворот с фото</div>
+			            </div>
+			            <div class="upload-wrap">
+			                <div class="upload">
+			                    <input type="file" name="p-photo2" class="dropify" data-dpf="1" />
+			                </div>
+			                <div class="upload-text">Паспорт, разворот с пропиской</div>
+			            </div>
+			            <div class="upload-wrap mb30">
+			                <div class="upload">
+			                    <input type="file" name="inn-photo" class="dropify" data-dpf="1" />
+			                </div>
+			                <div class="upload-text">ИНН</div>
+			            </div>
+                    	<div class="btn-wrapper">
+	                		<button class="btn popup-btn">Отправить</button>
+	                	</div>
+                    </form>
                 </div>
             </div>
 		</div>
@@ -517,6 +571,7 @@
 	<script src="libs/jquery.inputmask.min.js"></script>
 	<script src="libs/slick.min.js"></script>
 	<script src="libs/jquery.countdown.min.js"></script>
+	<script src="libs/dropify/dropify.min.js"></script>
 	<script src="js/scripts.js"></script>
 </body>
 </html>
