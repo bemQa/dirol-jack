@@ -15,8 +15,7 @@ $(document).ready(function () {
 
     $('.anchor[href^="#"]').click(function () {
         if($(window).innerWidth() <= 1000) {
-           $('.menu-links').removeClass('active'); 
-           $('.burger').removeClass('active');
+           $('.burger, .menu-links, .logo, .login-link.mobile-visible').removeClass('visible');
         }
         elementClick = $(this).attr("href");
         destination = $(elementClick).offset().top-150;

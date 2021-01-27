@@ -1480,6 +1480,7 @@ table td:nth-child(3) {
 
 .lk-table {
     max-width: 750rem;
+    min-width: 720rem;
     margin-bottom: 50rem;
 }
 
@@ -1840,7 +1841,9 @@ table td:nth-child(3) {
 }
 
 .prizes {
+    position: relative;
     margin-bottom: 100rem;
+    z-index: 1;
 }
 
 .prizes-slider {
@@ -2006,6 +2009,85 @@ table td:nth-child(3) {
     transform: rotate(-5deg) skewX(-10deg);
 }
 
+.error-title {
+    font-style: italic;
+    font-size: 354rem;
+    line-height: 380rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 5.92511rem -0.987519rem 0rem #000;
+    transform: rotate(-5deg) skewX(-10deg);
+}
+
+.error-desc {
+    max-width: 710rem;
+    width: 100%;
+    margin: 0 auto 40rem;
+    font-style: italic;
+    font-size: 61rem;
+    line-height: 73rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 5.92511rem -0.987519rem 0rem #000;
+    transform: rotate(-5deg) skewX(-10deg);
+}
+
+.error-text {
+    font-style: italic;
+    font-size: 46rem;
+    line-height: 54rem;
+    text-align: center;
+    color: #FFE500;
+    transform: rotate(-5deg) skewX(-10deg);
+}
+
+.cookies-page .container {
+    max-width: 1330rem;
+    font-style: italic;
+}
+
+.main-cookie-h1 {
+    max-width: 1130rem;
+    width: 100%;
+    margin: 60rem auto;
+}
+
+.cookies-page p {
+    font-size: 21rem;
+    line-height: 152%;
+    margin: 40rem 0;
+}
+
+.main-cookie-h3 {
+    font-size: 30rem;
+    line-height: 32rem;
+    color: #FFE500;
+    margin-bottom: 20rem;
+}
+
+.cookie-text-ul {
+    font-size: 21rem;
+    line-height: 152%;
+    padding-left: 50rem;
+    list-style: disc;
+}
+
+.cookie-text-ul li {
+    margin: 20rem 0;
+    color: #FFE500;
+}
+
+.cookie-text-ul li span {
+    color: #fff;
+}
+
+.main-cookie-h2 {
+    font-size: 30rem;
+    line-height: 32rem;
+    color: #FFE500;
+    margin-bottom: 20rem;
+}
+
 @media (max-width: 1000px) {
 	.container {
 		max-width: 375px;
@@ -2017,7 +2099,10 @@ table td:nth-child(3) {
         height: 90px;
     }
 
-    header ~ .main-page, 
+    header ~ .main-page {
+        padding-top: 100px;
+    }
+ 
     header ~ .inner-page {
         padding-top: 120px;
     }
@@ -2469,6 +2554,7 @@ table td:nth-child(3) {
 
     .table-wrapper {
         max-width: 280px;
+        min-width: auto;
         max-height: 250px;
     }
 
@@ -2709,5 +2795,254 @@ table td:nth-child(3) {
         background-size: 37px;
         width: 37px;
         height: 60px;
+    }
+
+    .main-page .title {
+        font-size: 50px;
+        line-height: 60px;
+        text-shadow: 3px 2px 0px #000;
+    }
+
+    .main-block {
+        position: relative;
+        flex-direction: column;
+        max-width: 375px;
+        margin-bottom: 50px;
+        padding: 0 15px;
+    }
+
+    .main-jack {
+        position: absolute;
+        top: 45px;
+        max-width: 277px;
+        height: 299px;
+    }
+
+    .main-jack img {
+        position: static;
+        top: auto;
+        max-width: 100%;
+    }
+
+    .main-info {
+        -ms-align-items: center;
+        align-items: center;
+        max-width: 300px;
+    }
+
+    .kv {
+        position: relative;
+        max-width: 267px;
+        height: 88px;
+        margin-bottom: 250px;
+        background: url(../img/kv-mob.png) center no-repeat;
+        background-size: contain;
+        order: -1;
+        z-index: 1;
+    }
+
+    .steps {
+        flex-direction: column;
+        -ms-align-items: center;
+        align-items: center;
+    }
+
+    .step {
+        max-width: 220px;
+        margin: 0 auto 20px;
+        margin-bottom: 20px;
+    }
+
+    .step-title {
+        max-width: 196px;
+        height: 40px;
+        margin: auto;
+        font-size: 23px;
+    }
+
+    .step-text {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .main-info .code-form {
+        margin: 0 auto 20px;
+    }
+
+    .prizes {
+        margin-bottom: 50px;
+    }
+
+    .prizes-slider {
+        transform: none;
+    }
+
+    .prize {
+        padding: 10px 0;
+    }
+
+    .prize-img {
+        height: 300px;
+        transform: none;
+    }
+
+    .prize1 .prize-img {
+        max-width: 297px;
+    }
+
+    .prize2 .prize-img {
+        max-width: 250px;
+    }
+
+    .prize3 .prize-img {
+        max-width: 280px;
+    }
+
+    .prize4 .prize-img {
+        max-width: 190px;
+    }
+
+    .prize-name {
+        max-width: 262px;
+        height: 46px;
+        font-size: 24px;
+        transform: rotate(-5deg) skewX(-10deg);
+    }
+
+    .prize-text {
+        max-width: 250px;
+        font-size: 16px;
+        line-height: 19px;
+        transform: rotate(-5deg) skewX(-10deg);
+    }
+
+    .prizes-slider .slick-arrow {
+        width: 16px;
+        height: 51px;
+        background: none;
+    }
+
+    .prizes-slider .slick-prev {
+        left: 0;
+        background: url(../img/arrow-left.svg) center no-repeat;
+        background-size: contain;
+    }
+
+    .prizes-slider .slick-next {
+        right: 0;
+        background: url(../img/arrow-right.svg) center no-repeat;
+        background-size: contain;
+    }
+
+    .superprize-block {
+        margin-bottom: 50px;
+    }
+
+    .jack-superprize {
+        max-width: 332px;
+        height: 320px;
+    }
+
+    .jack-superprize img {
+        max-width: 332px;
+    }
+
+    .lightrays {
+        top: -95px;
+        left: -250px;
+        width: 600px;
+        height: 600px;
+    }
+
+    .superprize-text {
+        position: relative;
+        max-width: 510px;
+        min-height: 84px;
+        padding: 10px;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+    }
+
+    .superprize-text::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100px;
+        right: -100px;
+        bottom: 0;
+        margin: auto;
+        width: 510px;
+        height: 100%;
+        background: #FFE500;
+        z-index: -1;
+    }
+
+    .fresh-block .title {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .fresh-prizes {
+        position: relative;
+        height: 200px;
+    }
+
+    .fresh-prizes img {
+        position: absolute;
+        top: 0;
+        left: -100px;
+        right: -100px;
+        margin: auto;
+        max-width: none;
+        width: 510px;
+    }
+
+    .error-title {
+        font-size: 140px;
+        line-height: 160px;
+        text-shadow: 2.3394px -0.3899px 0px #000;
+    }
+
+    .error-desc {
+        max-width: 280px;
+        margin: 0 auto 20px;
+        font-size: 24px;
+        line-height: 29px;
+        text-shadow: 2.3394px -0.3899px 0px #000;
+    }
+
+    .error-text {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .cookies-page .container {
+        max-width: 375px;
+    }
+
+    .main-cookie-h1 {
+        max-width: 100%;
+        font-size: 30px;
+        line-height: 34px;
+        text-align: center;
+        margin: 0 auto 40px;
+    }
+
+    .cookies-page p {
+        font-size: 14px;
+        margin: 20px 0;
+    }
+
+    .cookie-text-ul {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+    .main-cookie-h3,
+    .main-cookie-h2 {
+        font-size: 21px;
+        line-height: 28px;
     }
 }
