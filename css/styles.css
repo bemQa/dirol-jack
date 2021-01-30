@@ -1587,6 +1587,8 @@ table td:nth-child(3) {
     max-width: 411rem;
     width: 100%;
     margin: 0 auto 20rem;
+    padding: 40rem 0;
+    transform: rotate(-5deg);
 }
 
 .product-name {
@@ -2713,6 +2715,7 @@ table td:nth-child(3) {
     .product-img {
         max-width: 300px;
         margin-bottom: 20px;
+        padding: 20px 0;
     }
 
     .product-name {
