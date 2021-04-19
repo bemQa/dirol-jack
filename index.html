@@ -391,8 +391,32 @@ if(document.location.search.substr(1).split('&').indexOf('global=paused')>=0)ks.
 					</div>
 					<div class="fresh-block">
 						<div class="title">Популярные предложения фреш призов</div>
-						<div class="fresh-prizes">
-							<img src="img/collage.png" alt="">
+						<canvas width="1600" height="1200" id="fresh_prizes" class="desktop-visible">
+						    <ul>
+						        <li><a href="#!" data-weight="60">Профессиональный <br>квадракоптер</a></li>
+						        <li><a href="#!" data-weight="40">Барабанная <br>установка</a></li>
+						        <li><a href="#!"><img src="img/fresh/apple.svg" alt=""></a></li>
+						        <li><a href="#!" data-weight="40">Play Station 5</a></li>
+						        <li><a href="#!"><img src="img/fresh/learning.svg" alt=""></a></li>
+						        <li><a href="#!" data-weight="30">Брендовая сумка</a></li>
+						        <li><a href="#!"><img src="img/fresh/teeth.svg" alt=""></a></li>
+						        <li><a href="#!"><img src="img/fresh/mald.svg" alt=""></a></li>
+						        <li><a href="#!"><img src="img/fresh/new-car.svg" alt=""></a></li>
+						        <li><a href="#!"><img src="img/fresh/f1.svg" alt=""></a></li>
+						        <li><a href="#!" data-weight="30">Поездка <br>в Диснейленд <br>с семьей</a></li>
+						        <li><a href="#!" data-weight="40">Сантехника <br>для дома</a></li>
+						        <li><a href="#!"><img src="img/fresh/watch.svg" alt=""></a></li>
+						        <li><a href="#!" data-weight="30">Массажное <br>кресло</a></li>
+						        <li><a href="#!"><img src="img/fresh/pc.svg" alt=""></a></li>
+						        <li><a href="#!"><img src="img/fresh/lainer.svg" alt=""></a></li>
+						        <li><a href="#!"><img src="img/fresh/cat.svg" alt=""></a></li>
+						        <li><a href="#!" data-weight="50">Снегоход</a></li>
+						        <li><a href="#!"><img src="img/fresh/kawasaki.svg" alt=""></a></li>
+						        <li><a href="#!" data-weight="40">Сертификат <br>на кухню</a></li>
+						    </ul>
+						</canvas>
+						<div class="fresh-prizes mobile-visible">
+							<img src="img/fresh/collage-mob.png" alt="">
 						</div>
 					</div>
 				</div>
@@ -669,6 +693,7 @@ if(document.location.search.substr(1).split('&').indexOf('global=paused')>=0)ks.
 	<script src="libs/jquery.inputmask.min.js"></script>
 	<script src="libs/slick.min.js"></script>
 	<script src="libs/jquery.countdown.min.js"></script>
+	<script src="libs/jquery.tagcanvas.min.js"></script>
 	<script src="js/scripts.js"></script>
 </body>
 </html>

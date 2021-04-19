@@ -18,3 +18,12 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'AvantGardeGothicC Italic';
+    src: url('AvantGardeGothicC-DemiOblique.eot');
+    src: url('AvantGardeGothicC-DemiOblique.eot?#iefix') format('embedded-opentype'),
+        url('AvantGardeGothicC-DemiOblique.woff2') format('woff2'),
+        url('AvantGardeGothicC-DemiOblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
