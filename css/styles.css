@@ -2991,6 +2991,11 @@ table td:nth-child(3) {
         z-index: -1;
     }
 
+    .fresh-block {
+        position: relative;
+        height: 450px;
+    }
+
     .fresh-block .title {
         font-size: 40px;
         line-height: 50px;
@@ -3059,9 +3064,20 @@ table td:nth-child(3) {
         line-height: 28px;
     }
 
-    #fresh_prizes {
+    #fresh_prizes_mob {
+        position: absolute;
+        top: 150px;
+        left: -50px;
+        right: -50px;
         width: 310px;
-        height: 1000px;
+        height: 310px;
         margin: 20px auto;
     }
+
+    /*#fresh_prizes {
+        width: 1600px;
+        height: 1200px;
+        margin: 20px auto;
+        transform: scale(.2) translate(-195%, -200%);
+    }*/
 }
