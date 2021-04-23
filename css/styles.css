@@ -500,7 +500,7 @@ body .scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_size {
     min-width: 140rem;
     width: 100%;
     /*margin: 10px auto;*/
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
     z-index: 1;
 }
 
@@ -818,7 +818,7 @@ footer .container {
     text-transform: uppercase;
     color: #fff;
     text-shadow: 4.1279rem -0.687984rem 0rem #000;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
 }
 
 .faq-container {
@@ -875,7 +875,7 @@ footer .container {
     font-style: italic;
     color: #fff;
     background: #ED1B31;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
 }
 
 .faq-item-title.active::before {
@@ -904,7 +904,7 @@ footer .container {
     max-width: 490rem;
     width: 100%;
     margin: 0 auto 20rem;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
 }
 
 .feedback-desc span {
@@ -986,7 +986,7 @@ footer .container {
     text-transform: uppercase;
     text-shadow: 6.08756rem -1.01459rem 0rem #000;
     margin: 0 auto 20rem;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
 }
 
 .popup__title2 {
@@ -997,7 +997,18 @@ footer .container {
     text-transform: uppercase;
     text-shadow: 3.08756rem 0rem 0rem #000;
     margin: 20rem auto;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
+}
+
+.popup__title3 {
+    font-style: italic;
+    font-size: 40rem;
+    line-height: 48rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 4rem -1.01459rem 0rem #000000;
+    margin: 20rem auto;
+    transform: skewX(-10deg);
 }
 
 .popup__error {
@@ -1007,7 +1018,7 @@ footer .container {
     min-height: 16rem;
     color: #fff;
     margin-bottom: 5rem;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
 }
 
 .popup__desc,
@@ -1017,7 +1028,7 @@ footer .container {
     font-size: 22rem;
     line-height: 1.2;
     margin: 0 auto 20rem;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
 }
 
 .popup__error + .popup__desc {
@@ -1056,7 +1067,7 @@ footer .container {
     color: #000;
     background: #fff;
     transition: all .2s linear;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
 }
 
 .input-field textarea {
@@ -1120,7 +1131,7 @@ span.error {
 .checkbox-field {
     text-align: left;
     margin: 20rem auto;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
 }
 
 .checkbox {
@@ -1204,7 +1215,7 @@ span.error {
     background: #ED1B31;
     z-index: 1;
     transition: all .2s linear;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
 }
 
 .btn:hover {
@@ -1229,7 +1240,7 @@ span.error {
     height: 4rem;
     background: #FFE500;
     margin: 20rem auto;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
 }
 
 .popup-link-wrapper {
@@ -1238,8 +1249,8 @@ span.error {
     align-items: center;
     justify-content: space-between;
     max-width: 600rem;
-    margin: 40rem auto 0;
-    transform: rotate(-5deg) skewX(-10deg);
+    margin: 40rem auto 20rem;
+    transform: skewX(-10deg);
 }
 
 .popup-link {
@@ -1285,7 +1296,7 @@ span.error {
     line-height: 38rem;
     text-align: center;
     text-transform: uppercase;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
     margin-bottom: 20rem;
 }
 
@@ -1305,7 +1316,7 @@ span.error {
 .phone-filter {
     max-width: 500rem;
     margin: 30rem auto 40rem;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
 }
 
 .phone-filter.input-field input:not([type="checkbox"]) {
@@ -1331,7 +1342,7 @@ span.error {
     align-items: center;
     justify-content: center;
     margin-bottom: 80rem;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
 }
 
 .tab {
@@ -1474,7 +1485,7 @@ table td:nth-child(3) {
     text-transform: uppercase;
     color: #fff;
     text-shadow: 4rem 2rem 0rem #000;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
     margin-bottom: 30rem;
 }
 
@@ -1521,7 +1532,7 @@ table td:nth-child(3) {
     max-width: 500rem;
     width: 100%;
     margin: 30rem auto 40rem;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
 }
 
 .code-form .input-field input:not([type="checkbox"]) {
@@ -1557,7 +1568,7 @@ table td:nth-child(3) {
     line-height: 39rem;
     text-align: center;
     text-transform: uppercase;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
     margin-bottom: 40rem;
 }
 
@@ -1588,7 +1599,6 @@ table td:nth-child(3) {
     width: 100%;
     margin: 0 auto 20rem;
     padding: 40rem 0;
-    transform: rotate(-5deg);
 }
 
 .product-name {
@@ -1597,7 +1607,7 @@ table td:nth-child(3) {
     line-height: 48rem;
     text-align: center;
     text-transform: uppercase;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
     margin-bottom: 20rem;
 }
 
@@ -1607,7 +1617,7 @@ table td:nth-child(3) {
     line-height: 38rem;
     text-align: center;
     color: #FFE500;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
 }
 
 .product-slider .slick-arrow {
@@ -1630,6 +1640,7 @@ table td:nth-child(3) {
 
 .input-field-double {
     display: flex;
+    margin: 0 auto 10rem;
 }
 
 .input-field-double .input-field {
@@ -1638,7 +1649,6 @@ table td:nth-child(3) {
 }
 
 .input-field-double .input-field:first-child {
-    margin-top: 25rem;
     margin-right: 10rem;
 }
 
@@ -1647,7 +1657,7 @@ table td:nth-child(3) {
     font-size: 16rem;
     line-height: 19rem;
     text-align: left;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
 }
 
 .pd-title {
@@ -1657,7 +1667,7 @@ table td:nth-child(3) {
     text-align: left;
     color: #FFE500;
     margin-bottom: 10rem;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
 }
 
 .upload-wrap {
@@ -1665,7 +1675,7 @@ table td:nth-child(3) {
     align-items: center;
     margin: 0 auto 10rem;
     position: relative;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
 }
 
 .upload {
@@ -1777,7 +1787,7 @@ table td:nth-child(3) {
 
 .main-jack img {
     position: absolute;
-    top: -160rem;
+    top: -190rem;
     left: 0;
     max-width: 933rem;
 }
@@ -1803,12 +1813,21 @@ table td:nth-child(3) {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    transform: rotate(-7deg) skewX(-10deg);
+    margin-top: 45px;
+    transform: skewX(-10deg);
 }
 
 .step {
     max-width: 300rem;
     width: 100%;
+}
+
+.step:nth-child(1) {
+    margin-top: 60px;
+}
+
+.step:nth-child(2) {
+    margin-top: 30px;
 }
 
 .step-title {
@@ -1839,7 +1858,8 @@ table td:nth-child(3) {
 }
 
 .main-info .code-form {
-    transform: rotate(-7deg) skewX(-10deg);
+    transform: skewX(-10deg);
+    margin: 30rem auto 40rem 0;
 }
 
 .prizes {
@@ -1849,7 +1869,7 @@ table td:nth-child(3) {
 }
 
 .prizes-slider {
-    transform: rotate(-5deg);
+    /*transform: rotate(-5deg);*/
 }
 
 .prize {
@@ -2008,7 +2028,7 @@ table td:nth-child(3) {
     line-height: 37rem;
     text-transform: uppercase;
     color: #009640;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
 }
 
 .error-title {
@@ -2018,7 +2038,7 @@ table td:nth-child(3) {
     text-align: center;
     text-transform: uppercase;
     text-shadow: 5.92511rem -0.987519rem 0rem #000;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
 }
 
 .error-desc {
@@ -2031,7 +2051,7 @@ table td:nth-child(3) {
     text-align: center;
     text-transform: uppercase;
     text-shadow: 5.92511rem -0.987519rem 0rem #000;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
 }
 
 .error-text {
@@ -2040,7 +2060,7 @@ table td:nth-child(3) {
     line-height: 54rem;
     text-align: center;
     color: #FFE500;
-    transform: rotate(-5deg) skewX(-10deg);
+    transform: skewX(-10deg);
 }
 
 .cookies-page .container {
@@ -2262,10 +2282,17 @@ table td:nth-child(3) {
     }
 
     .title,
-    .popup__title {
+    .popup__title,
+    .popup__title3 {
         font-size: 24px;
         line-height: 29px;
         text-shadow: 2.3394px -0.3899px 0px #000000;
+    }
+
+    .popup__title3 {
+        max-width: 300px;
+        margin: 0 auto 20px;
+        transform: none;
     }
 
     .faq-container {
@@ -2484,7 +2511,7 @@ table td:nth-child(3) {
 
     .popup-link-wrapper {
         max-width: 300px;
-        margin: 30px auto 0;
+        margin: 30px auto 15px;
     }
 
     .popup-link {
@@ -2756,8 +2783,11 @@ table td:nth-child(3) {
         right: -10px;
     }
 
+    .input-field-double {
+        margin-bottom: 10px;
+    }
+
     .input-field-double .input-field:first-child {
-        margin-top: 13px;
         margin-right: 10px;
     }
 
@@ -2919,14 +2949,14 @@ table td:nth-child(3) {
         max-width: 262px;
         height: 46px;
         font-size: 24px;
-        transform: rotate(-5deg) skewX(-10deg);
+        transform: skewX(-10deg);
     }
 
     .prize-text {
         max-width: 250px;
         font-size: 16px;
         line-height: 19px;
-        transform: rotate(-5deg) skewX(-10deg);
+        transform: skewX(-10deg);
     }
 
     .prizes-slider .slick-arrow {
