@@ -287,4 +287,9 @@ $(document).ready(function () {
             });
         }
     }
+
+    $('.close-football-tooltip').click(function(e) {
+        e.preventDefault();
+        $(this).parent().fadeOut();
+    });
 });

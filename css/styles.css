@@ -2116,6 +2116,62 @@ table td:nth-child(3) {
     margin: 20rem auto;
 }
 
+.football-popup-wrap {
+    max-width: 1640rem;
+}
+
+.football-popup-inner {
+    padding-left: 708rem;
+}
+
+.football-popup-img {
+    position: absolute;
+    top: -120rem;
+    left: 0;
+    width: 834rem;
+}
+
+.football-popup-remark {
+    position: absolute;
+    bottom: -140rem;
+    left: 0;
+    right: 0;
+    width: 1114rem;
+    margin: auto;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 12rem;
+    line-height: 16rem;
+    text-align: center;
+    transform: skewX(-10deg);
+}
+
+.football-tooltip {
+    position: fixed;
+    top: 140rem;
+    right: 0;
+    width: 494rem;
+    height: 635rem;
+    z-index: 5;
+}
+
+.close-football-tooltip {
+    position: absolute;
+    top: 0;
+    left: -60rem;
+    right: 0;
+    margin: auto;
+    width: 69rem;
+    height: 69rem;
+    background: url(../img/football-tooltip-close.svg) center no-repeat;
+    background-size: contain;
+    z-index: 1;
+}
+
+.football-tooltip-img {
+    display: block;
+}
+
 @media (max-width: 1000px) {
 	.container {
 		max-width: 375px;
@@ -2888,12 +2944,20 @@ table td:nth-child(3) {
         flex-direction: column;
         -ms-align-items: center;
         align-items: center;
+        transform: none;
+        margin-top: 20px;
     }
 
     .step {
         max-width: 220px;
         margin: 0 auto 20px;
         margin-bottom: 20px;
+        transform: skewX(-10deg);
+    }
+
+    .step:nth-child(1),
+    .step:nth-child(2) {
+        margin-top: 0;
     }
 
     .step-title {
@@ -3110,4 +3174,34 @@ table td:nth-child(3) {
         margin: 20px auto;
         transform: scale(.2) translate(-195%, -200%);
     }*/
+
+    .football-popup-wrap {
+        max-width: 320px;
+    }
+
+    .football-popup-inner {
+        padding-top: 220px;
+        padding-left: 0;
+    }
+
+    .football-popup-img {
+        top: -20px;
+        left: 0;
+        right: 0;
+        width: 283px;
+    }
+
+    .football-popup .popup__title3 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .football-popup-remark {
+        bottom: -90px;
+        left: 0;
+        right: 0;
+        width: 306px;
+        font-size: 9px;
+        line-height: 12px;
+    }
 }
