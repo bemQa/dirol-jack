@@ -2172,6 +2172,97 @@ table td:nth-child(3) {
     display: block;
 }
 
+header ~ .challenge-page {
+    padding-top: 0;
+}
+
+.challenge-block {
+    width: 100%;
+    height: 875rem;
+    background: url(../img/challenge-img.png) center no-repeat;
+    background-size: cover;
+}
+
+.challenge-steps {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90rem;
+}
+
+.challenge-step {
+    margin: 0 25rem;
+}
+
+.challenge-step-img {
+    position: relative;
+    height: 370rem;
+}
+
+.challenge-step-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.challenge-step.step1 .challenge-step-img img {
+    width: 405rem;
+    right: -260rem;
+}
+
+.challenge-step.step2 .challenge-step-img img {
+    width: 245rem;
+}
+
+.challenge-step.step3 .challenge-step-img img {
+    width: 351rem;
+    left: -100rem;
+}
+
+.challenge-step-name {
+    font-style: italic;
+    font-size: 33rem;
+    line-height: 39rem;
+    text-transform: uppercase;
+    color: #009640;
+    transform: skewX(-10deg);
+    height: 84rem;
+    margin-bottom: 5rem;
+}
+
+.challenge-step.step2 .challenge-step-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.challenge-step-name span {
+    padding: 6rem 10rem;
+    background: #FFE500;
+}
+
+.challenge-step-text {
+    font-style: italic;
+    font-size: 22rem;
+    line-height: 26rem;
+    padding: 0 4rem;
+    transform: skewX(-10deg);
+}
+
+.challenge-video-title {
+    font-style: italic;
+    font-size: 40rem;
+    line-height: 48rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 4rem -1.01459rem 0rem #000000;
+    transform: skewX(-10deg);
+    margin-bottom: 40rem;
+}
+
 @media (max-width: 1000px) {
 	.container {
 		max-width: 375px;
@@ -3203,5 +3294,86 @@ table td:nth-child(3) {
         width: 306px;
         font-size: 9px;
         line-height: 12px;
+    }
+
+    header ~ .challenge-page {
+        background: #62BB46 url(../img/bg-mob.png) center 0 no-repeat;
+        background-size: 1000px;
+    }
+
+    .challenge-block {
+        width: 310px;
+        height: 355px;
+        margin: 0 auto 10px;
+        background: url(../img/challenge-img-mob.png) center no-repeat;
+        background-size: contain;
+    }
+
+    .challenge-steps {
+        flex-direction: column;
+        -ms-align-items: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .challenge-step {
+        width: 100%;
+        margin: 15px auto;
+        text-align: center;
+    }
+
+    .challenge-step.step1 .challenge-step-img {
+        height: 220px;
+    }
+
+    .challenge-step.step2 .challenge-step-img {
+        height: 170px;
+    }
+
+    .challenge-step.step3 .challenge-step-img {
+        height: 190px;
+    }
+
+    .challenge-step.step1 .challenge-step-img img {
+        width: 218px;
+        right: -100px;
+    }
+
+    .challenge-step.step2 .challenge-step-img img {
+        width: 118px;
+    }
+
+    .challenge-step.step3 .challenge-step-img img {
+        width: 190px;
+        left: -50px;
+    }
+
+    .challenge-step-name {
+        font-size: 22px;
+        line-height: 26px;
+        height: 55px;
+        margin-bottom: 5px;
+    }
+
+    .challenge-step.step2 .challenge-step-name {
+        display: inline-block;
+        height: auto;
+    }
+
+    .challenge-step-name span {
+        padding: 3px 10px;
+    }
+
+    .challenge-step-text {
+        font-size: 18px;
+        line-height: 22px;
+        padding: 0 4px;
+    }
+
+    .challenge-video-title {
+        font-size: 24px;
+        line-height: 29px;
+        text-shadow: 2px 1px 0px #000000;
+        margin-bottom: 20px;
     }
 }
