@@ -2334,6 +2334,26 @@ header ~ .challenge-page {
     background: #efd70b;
 }
 
+.fresh-prizes {
+    position: relative;
+    width: 100%;
+    height: 1249rem;
+    margin: auto;
+}
+
+.fresh-prizes::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -500rem;
+    right: -500rem;
+    width: 1851rem;
+    height: 1249rem;
+    margin: auto;
+    background: url(../img/collage.png) center no-repeat;
+    background-size: contain;
+}
+
 @media (max-width: 1000px) {
 	.container {
 		max-width: 375px;
@@ -3249,7 +3269,6 @@ header ~ .challenge-page {
 
     .fresh-block {
         position: relative;
-        height: 450px;
     }
 
     .fresh-block .title {
@@ -3258,20 +3277,19 @@ header ~ .challenge-page {
         margin-bottom: 20px;
     }
 
-    /*.fresh-prizes {
-        position: relative;
-        height: 200px;
+    .fresh-prizes {
+        height: 1060px;
     }
 
-    .fresh-prizes img {
-        position: absolute;
-        top: 0;
+    .fresh-prizes::before {
         left: -100px;
         right: -100px;
         margin: auto;
-        max-width: none;
-        width: 510px;
-    }*/
+        width: 313px;
+        height: 1060px;
+        background: url(../img/collage-mob.png) center no-repeat;
+        background-size: contain;
+    }
 
     .error-title {
         font-size: 140px;
