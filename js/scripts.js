@@ -292,4 +292,14 @@ $(document).ready(function () {
         e.preventDefault();
         $(this).parent().fadeOut();
     });
+
+    if($('.fresh-prizes-animations').length) {
+        $(window).on('scroll load', function () {
+            var top = $(window).scrollTop();
+            var destination =  $('.fresh-prizes-animations').offset().top-250;
+            if(top >= destination) {
+                 $('.fresh-prizes-animations').addClass('active'); 
+            }
+        });
+    }
 });

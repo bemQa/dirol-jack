@@ -2367,6 +2367,11 @@ header ~ .challenge-page {
     right: 0;
     margin: auto;
     opacity: 0;
+    animation-play-state: paused !important;
+}
+
+.fresh-prizes-animations.active .fresh-prizes-animation {
+    animation-play-state: running !important;
 }
 
 .animation-f1 {
