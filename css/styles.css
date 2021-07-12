@@ -2370,6 +2370,10 @@ header ~ .challenge-page {
     animation-play-state: paused !important;
 }
 
+.fresh-prizes-animation img {
+    width: 100%;
+}
+
 .fresh-prizes-animations.active .fresh-prizes-animation {
     animation-play-state: running !important;
 }
