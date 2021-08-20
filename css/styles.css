@@ -2380,7 +2380,7 @@ header ~ .challenge-page {
 
 .animation-f1 {
     top: 595rem;
-    width: 652rem;
+    width: 581rem;
     animation: 10s animation-f1 ease-in-out infinite;
 }
 
@@ -2410,6 +2410,44 @@ header ~ .challenge-page {
 }*/
 
 @keyframes animation-f1 {
+    0% {
+        right: -2000rem;
+        opacity: 0;
+        filter: blur(5px);
+    }
+
+    10% {
+        right: -100rem;
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+    80% {
+        right: -100rem;
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+    90% {
+        right: -2000rem;
+        opacity: 0;
+        filter: blur(5px);
+    }
+
+    100% {
+        right: -2000rem;
+        opacity: 0;
+        filter: blur(5px);
+    }
+}
+
+.animation-renovation {
+    top: 595rem;
+    width: 581rem;
+    animation: 10s animation-renovation ease-in-out infinite;
+}
+
+@keyframes animation-renovation {
     0% {
         right: -2000rem;
         opacity: 0;
@@ -2507,9 +2545,11 @@ header ~ .challenge-page {
 }
 
 .animation-disney {
-    top: 645rem;
+    /*top: 645rem;*/
+    top: 625rem;
     left: auto;
-    width: 307rem;
+    /*width: 307rem;*/
+    width: 282rem;
     animation: 10s animation-disney ease-in-out infinite;
     /*animation-delay: .5s;*/
 }
@@ -2522,13 +2562,15 @@ header ~ .challenge-page {
     }
 
     15% {
-        right: 60rem;
+        /*right: 60rem;*/
+        right: 100rem;
         opacity: 1;
         filter: blur(0px);
     }
 
     75% {
-        right: 60rem;
+        /*right: 60rem;*/
+        right: 100rem;
         opacity: 1;
         filter: blur(0px);
     }
@@ -2548,7 +2590,8 @@ header ~ .challenge-page {
 
 .animation-dubai {
     top: 440rem;
-    width: 490rem;
+    /*width: 490rem;*/
+    width: 461rem;
     animation: 10s animation-dubai ease-in-out infinite;
     /*animation-delay: 1s;*/
 }
@@ -2678,7 +2721,8 @@ header ~ .challenge-page {
 .animation-ps5 {
     top: 454rem;
     right: auto;
-    width: 328rem;
+    /*width: 328rem;*/
+    width: 338rem;
     animation: 10s animation-ps5 ease-in-out infinite;
     /*animation-delay: 1.5s;*/
 }
@@ -2795,24 +2839,10 @@ header ~ .challenge-page {
 
 .animation-drum {
     top: 120rem;
-    width: 325rem;
+    /*width: 325rem;*/
+    width: 367rem;
     animation: 10s animation-drum ease-in-out infinite;
-    /*animation-delay: 2s;*/
 }
-/*
-@keyframes animation-drum {
-    0% {
-        right: -800rem;
-        opacity: 0;
-        filter: blur(5px);
-    }
-
-    100% {
-        right: -400rem;
-        opacity: 1;
-        filter: blur(0px);
-    }
-}*/
 
 @keyframes animation-drum {
     0%, 20% {
@@ -3199,7 +3229,6 @@ header ~ .challenge-page {
     left: auto;
     width: 571rem;
     animation: 10s animation-cruise ease-in-out infinite;
-    /*animation-delay: 1s;*/
 }
 
 .animation-cruise::before {
@@ -3212,20 +3241,6 @@ header ~ .challenge-page {
     background: url(../img/fresh-custom/cruise.png) center no-repeat;
     background-size: contain;
 }
-
-/*@keyframes animation-cruise {
-    0% {
-        right: 0;
-        opacity: 0;
-        filter: blur(5px);
-    }
-
-    100% {
-        right: 200rem;
-        opacity: 1;
-        filter: blur(0px);
-    }
-}*/
 
 @keyframes animation-cruise {
     0%, 10% {
@@ -3263,24 +3278,7 @@ header ~ .challenge-page {
     top: 776rem;
     width: 354rem;
     animation: 10s animation-pc ease-in-out infinite;
-    /*animation-delay: 1.5s;*/
 }
-
-/*@keyframes animation-pc {
-    0% {
-        top: 900rem;
-        left: -150rem;
-        opacity: 0;
-        filter: blur(5px);
-    }
-
-    100% {
-        top: 776rem;
-        left: -460rem;
-        opacity: 1;
-        filter: blur(0px);
-    }
-}*/
 
 @keyframes animation-pc {
     0%, 15% {
@@ -3328,24 +3326,7 @@ header ~ .challenge-page {
     top: 913rem;
     width: 235rem;
     animation: 10s animation-pc-img ease-in-out infinite;
-    /*animation-delay: 1.7s;*/
 }
-
-/*@keyframes animation-pc-img {
-    0% {
-        top: 776rem;
-        left: -800rem;
-        opacity: 0;
-        filter: blur(5px);
-    }
-
-    100% {
-        top: 913rem;
-        left: -400rem;
-        opacity: 1;
-        filter: blur(0px);
-    }
-}*/
 
 @keyframes animation-pc-img {
     0%, 17% {
@@ -3392,24 +3373,10 @@ header ~ .challenge-page {
 .animation-wedding {
     top: 745rem;
     right: auto;
-    width: 490rem;
+    /*width: 490rem;*/
+    width: 395rem;
     animation: 10s animation-wedding ease-in-out infinite;
-    /*animation-delay: 1s;*/
 }
-
-/*@keyframes animation-wedding {
-    0% {
-        left: -200rem;
-        opacity: 0;
-        filter: blur(5px);
-    }
-
-    100% {
-        left: -100rem;
-        opacity: 1;
-        filter: blur(0px);
-    }
-}*/
 
 @keyframes animation-wedding {
     0%, 10% {
@@ -3419,13 +3386,15 @@ header ~ .challenge-page {
     }
 
     20% {
-        left: -100rem;
+        /*left: -100rem;*/
+        left: -50rem;
         opacity: 1;
         filter: blur(0px);
     }
 
     70% {
-        left: -100rem;
+        /*left: -100rem;*/
+        left: -50rem;
         opacity: 1;
         filter: blur(0px);
     }
@@ -3448,22 +3417,7 @@ header ~ .challenge-page {
     right: auto;
     width: 322rem;
     animation: 10s animation-chair ease-in-out infinite;
-    /*animation-delay: 1.5s;*/
 }
-
-/*@keyframes animation-chair {
-    0% {
-        left: 0;
-        opacity: 0;
-        filter: blur(5px);
-    }
-
-    100% {
-        left: 170rem;
-        opacity: 1;
-        filter: blur(0px);
-    }
-}*/
 
 @keyframes animation-chair {
     0%, 15% {
@@ -3480,6 +3434,56 @@ header ~ .challenge-page {
 
     65% {
         left: 170rem;
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+    75%, 90% {
+        left: -500rem;
+        opacity: 0;
+        filter: blur(5px);
+    }
+
+    100% {
+        left: -500rem;
+        opacity: 0;
+        filter: blur(5px);
+    }
+}
+
+.animation-guitar {
+    top: 900rem;
+    right: auto;
+    width: 200rem;
+    animation: 10s animation-guitar ease-in-out infinite;
+}
+
+.animation-guitar::before {
+    content: '';
+    position: absolute;
+    top: -31rem;
+    left: -115rem;
+    width: 128rem;
+    height: 129rem;
+    background: url(../img/fresh-custom/20_08_21/guitar.png) center no-repeat;
+    background-size: contain;
+}
+
+@keyframes animation-guitar {
+    0%, 15% {
+        left: -500rem;
+        opacity: 0;
+        filter: blur(5px);
+    }
+
+    25% {
+        left: 250rem;
+        opacity: 1;
+        filter: blur(0px);
+    }
+
+    65% {
+        left: 250rem;
         opacity: 1;
         filter: blur(0px);
     }
